@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand&display=swap');
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+}
+
+.container p {
+  font-size: 1.3em;
+  font-family: "Quicksand", 'Courier New', Courier, monospace;
+}
+
+.container h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.container {
+  overflow: hidden;
+  box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  min-width: 450px;
+  max-width: 99%;
+  max-height: 40em;
+}
+
+.container #btn {
+    width: 40%;
+    height: 5em;
+    border-radius: 1em;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: bolder;
+    box-sizing: content-box;
+    text-transform: uppercase;
+    margin: 0 auto;
+  display: block;
+}
+/* 
+.container #btn:hover {
+    transition: 400ms;
+    background-color: red;
+} */
+
+footer p {
+  display: none;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: "Poppins", 'Courier New', Courier, monospace;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(216, 40, 40);
+}
+
+.container #image {
+    display: none;
+    width: fit-content;
+    margin: 0 auto;
+    height: auto;
+}
